@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+     xmlns:ae="http://schemas.android.com/apk/res/roge.taekim"
+>    
+    <style name="content_title">
+        <item name="font_color">#FF666666</item>
+    	<item name="font_size">30</item>
+    	<item name="font_style">bold</item>
+        <item name="background_color">#FFCCCCCC</item>
+        <item name="border">0,0,0,2:#FF999999</item>
+        <item name="padding">4</item>
+    </style>
+    <style name="content_body">
+	    <item name="background_color">#FFEEEEEE</item>
+	    <item name="padding">20,0,20,0</item>
+	</style>
+	<style name="content_content">
+        <item name="font_size">15</item>
+        <item name="padding">10,0,0,12</item>
+    </style>
+	<style name="content_header">
+        <item name="font_size">24</item>
+        <item name="font_style">bold</item>
+        <item name="padding">0,0,0,4</item>
+    </style>
+    <style name="content_note">
+        <item name="border">0,3:#FFD7D12A,0,3:#FFD7D12A</item>
+        <item name="padding">0,4,0,4</item>
+    </style>
+    <style name="content_note_content">
+        <item name="font_size">15</item>
+        <item name="background_color">#FFFFFC7C</item>
+        <item name="border">0,1:#FFD7D12A,0,3:#FFD7D12A</item>
+        <item name="padding">4</item>
+    </style>
+    <style name="content_note_title">
+        <item name="font_size">18</item>
+        <item name="background_color">#FFFFFC7C</item>
+        <item name="font_style">bold</item>
+        <item name="padding">8</item>
+        <item name="border">0,3:#FFD7D12A,0,1:#FFD7D12A</item>
+    </style>
+    <style name="content_warning">
+        <item name="font_size">15</item>
+        <item name="font_style">bold</item>
+        <item name="background_color">#FFFFACAF</item>
+        <item name="border">2:#FFFF444B</item>
+        <item name="padding">3</item>
+        <item name="text_align">center</item>
+    </style>
+    
+    <style name="navbar">
+        <item name="background_color">#FFCCCCCC</item>
+        <item name="border">0,2:#FF999999,0,0</item>
+    </style>
+    <style name="navbutton">
+        <item name="background_color">#FFCCCCCC</item>
+        <item name="font_color">#FF666666</item>
+        <item name="font_size">20</item>
+   		<item name="text_align">center</item>
+   		<item name="padding">6</item>
+    </style>
+    <style name="navbutton_next" parent="navbutton">
+        <item name="border">1:#FF999999,1:#FF999999,0,0</item>
+    </style>
+    <style name="navbutton_previous" parent="navbutton">
+        <item name="border">0,1:#FF999999,1:#FF999999,0</item>
+    </style>
+    
+    <style name="menu">
+        <item name="background_color">#FF521C00</item>
+        <item name="border">0,0,2:#FF000000,0</item>
+        <item name="item_padding">5,15,15,15</item>
+        <item name="item_tab">25</item>
+    </style>
+    <style name="menu_title">
+        <item name="font_size">28</item>
+        <item name="font_style">bold</item>
+        <item name="text_align">center</item>
+        <item name="padding">10</item>
+    </style>
+	<style name="heading_L0">
+        <item name="background_color">#FF852E00</item>
+        <item name="font_size">15</item>
+    </style>
+    <style name="heading_L1">
+        <item name="background_color">#FFD2723F</item>
+        <item name="font_size">12</item>
+    </style>
+    <style name="heading_L2">
+        <item name="background_color">#FFD78356</item>
+        <item name="font_size">12</item>
+    </style>
+    <style name="menu_item_L0" parent="heading_L0">
+    </style>
+    <style name="menu_item_L1" parent="heading_L1">
+    </style>
+    <style name="menu_item_L2" parent="heading_L2">
+    </style>
+</resources>

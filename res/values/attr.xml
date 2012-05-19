@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ads" format="boolean|reference" />
+    <attr name="background_color" format="color|reference" />
+    <attr name="background_color_active" format="color|reference" />
+    <attr name="background_color_ontouch" format="color|reference" />
+    <attr name="border" format="string" />
+    <attr name="data" format="string" />
+    <attr name="default_content" format="string" />
+    <attr name="font_color" format="color|reference" />
+    <attr name="font_size" format="float|reference" />
+    <attr name="font_style">
+        <flag name="normal" value="1" />
+        <flag name="bold" value="2" />
+        <flag name="italic" value="4" />
+    </attr>
+    <attr name="name" format="string" />
+    <attr name="padding" format="string" />
+    <attr name="text" format="string|reference" />
+    <attr name="text_align">
+        <enum name="left" value="0" />
+        <enum name="center" value="1" />
+        <enum name="right" value="2" />
+    </attr>
+    
+  	<declare-styleable name="Content">
+  	    <attr name="ads" />
+  	    
+  	    
+  	    <attr name="content_body_style" format="reference" />
+  	    <attr name="content_content_style" format="reference" />
+  	    <attr name="content_header_style" format="reference" />
+  	    <attr name="content_note_style" format="reference" />
+  	    <attr name="content_note_content_style" format="reference" />
+  	    <attr name="content_note_title_style" format="reference" />
+  	    <attr name="content_title_style" format="reference" />
+  	    <attr name="content_warning_style" format="reference" />
+  	    
+  	    <attr name="content_xml" format="reference" />
+  	    
+  	    <attr name="default_content" />
+  	    
+  	    <attr name="navbar_style" format="reference" />
+  	    <attr name="navbutton_next_style" format="reference" />
+  	    <attr name="navbutton_previous_style" format="reference" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="ELinearLayout">
+  	    <attr name="background_color" />
+  	    <attr name="border" />
+  	    <attr name="padding" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="EText">
+  	    <attr name="text" />
+  	    <attr name="font_color" />
+  	    <attr name="font_size" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="ETextView">
+  	    <attr name="background_color" />
+  	    <attr name="background_color_active" />
+  	    <attr name="background_color_ontouch" />
+  	    <attr name="border" />
+  	    <attr name="font_color" />
+  	    <attr name="font_size" />
+  	    <attr name="font_style" />
+  	    <attr name="padding" />
+  	    <attr name="text" />  
+  	    <attr name="text_align" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="EView">
+  	    <attr name="background_color" />
+  	    <attr name="background_color_ontouch" />
+  	    <attr name="border" />
+  	    <attr name="padding" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="Heading">
+  	    <attr name="background_color" />
+  	    <attr name="background_color_ontouch" />
+  	    <attr name="font_size" />
+  	    <attr name="text" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="Menu">
+  	    <attr name="background_color" />
+  	    <attr name="border" />
+  	    <attr name="heading_style" format="reference" />
+  	    <attr name="item_padding" format="string" />
+  	    <attr name="item_tab" format="integer" />
+  	    <attr name="text" />
+  	</declare-styleable>
+  	
+  	<declare-styleable name="MenuItem">
+  	    <attr name="data" />
+  	    <attr name="name" />
+  	    <attr name="text" />
+  	</declare-styleable>
+  	
+  	
+    
+    <declare-styleable name="Actions">
+        <attr name="on_tap" format="string" />
+    </declare-styleable>
+    <declare-styleable name="Input">
+        <attr name="ads" />
+        <attr name="title" format="string" />
+        <attr name="border" />
+        <attr name="content_name" format="string" />
+        <attr name="content_type">
+            <enum name="untyped" value="0" />
+            <enum name="lesson" value="1" />
+            <enum name="quiz" value="2" />
+        </attr>
+        <attr name="background_color" />
+        <attr name="font_size" />
+    </declare-styleable>
+</resources>

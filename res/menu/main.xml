@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+    	android:id="@+id/open_menu"
+    	android:drawable="@drawable/ic_menu_chat_dashboard"
+        android:title="Open Menu"
+	/>
+    <item
+        android:id="@+id/options"
+        android:drawable="@drawable/ic_menu_preferences"
+        android:title="Options"
+    />
+    <item 
+        android:id="@+id/visit_forum"
+        android:title="View Forum"
+    />
+    <item
+        android:id="@+id/email_dev"
+        android:title="Feedback?"
+    />
+</menu>

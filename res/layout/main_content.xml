@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ae="http://schemas.android.com/apk/res/roge.taekim"
+>
+    <roge.taekim.content.Content
+   	    android:id="@+id/content"
+   	    
+   	    android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		
+   		ae:content_xml="@xml/content"
+	    ae:default_content="home"
+   		
+   		ae:content_body_style="@style/content_body"
+   		ae:content_content_style="@style/content_content"
+   		ae:content_header_style="@style/content_header"
+   		ae:content_note_content_style="@style/content_note_content"
+   		ae:content_note_style="@style/content_note"
+   		ae:content_note_title_style="@style/content_note_title"
+   		ae:content_warning_style="@style/content_warning"
+   		ae:content_title_style="@style/content_title"
+   		
+   		ae:navbar_style="@style/navbar"
+   		ae:navbutton_next_style="@style/navbutton_next"
+   		ae:navbutton_previous_style="@style/navbutton_previous"
+   	/>
+</merge>

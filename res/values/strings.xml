@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tae Kim\'s Guide to Japanese</string>
+    <string name="app_options">Options</string>
+    <string name="version_name">Acrobatic Albertine (0.8)[ALPHA BUILD]</string>
+    
+    <string-array name="ad_keywords">
+        <item>anime</item>
+        <item>manga</item>
+        <item>video games</item>
+    </string-array>
+    
+    <string name="ad_thankyou">Thank you for supporting this application!&#160;&#160;=^.^=</string>
+    <string name="audiospan_soundoff">You must turn your sound on to hear this.</string>
+    <string name="content_not_found_title">Content not found!</string>
+    <string name="content_not_found_message">The requested content could not be found.  We\'re sorry!\nThis is very likely an error in the code that the programmer has written.\n\nPlease press the back button on your phone or tablet to pick up where you left off.</string>
+    <string name="last_content_history">You\'ve reached the last content in your history.  Trying to exit the app?  Press and hold the back button.</string>
+    <string name="nav_next_not_found">There is no content after this.&#160;&#160;:&lt;</string>
+    <string name="nav_previous_not_found">There is no content before this.&#160;&#160;:&lt;</string>
+</resources>

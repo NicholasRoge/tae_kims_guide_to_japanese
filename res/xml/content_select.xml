@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menu title="Content Selection">
+	<item title="Home" action="untyped:home"/>
+    <item title="Subjects">
+        <item title="Introduction" action="lesson:introduction"/>
+        <item title="The Writing System">
+            <item title="The Writing System" action="lesson:the_writing_system"/>
+            <item title="Hiragana" action="lesson:hiragana"/>
+            <item title="Katakana" action="lesson:katakana"/>
+            <item title="Kanji" action="lesson:kanji"/>
+        </item>
+        <item title="Basic Grammar">
+            <item title="Basic Grammar" action="lesson:basic_grammar"/>
+            <item title="Expressing State-of-Being" action="lesson:state_of_being"/>
+            <item title="Introduction to Particles" action="untyped:unavailable"/>
+            <item title="Adjectives" action="lesson:adjectives"/>
+            <item title="Verb Basics" action="untyped:unavailable"/>
+            <item title="Negative Verbs" action="untyped:unavailable"/>
+            <item title="Past Tense" action="untyped:unavailable"/>
+            <item title="Particles Used with Verbs" action="untyped:unavailable"/>
+            <item title="Tansitive and Intransitive Verbs" action="untyped:unavailable"/>
+            <item title="Descriptive Subordinate Clauses and Sentence Order" action="untyped:unavailable"/>
+            <item title="Noun-Related Particles" action="untyped:unavailable"/>
+            <item title="Using Adverbs and Gobi" action="untyped:unavailable"/>
+        </item>
+        <item title="Essential Grammar">
+            <item title="Polite Form and Verb Stems" action="untyped:unavailable"/>
+            <item title="Adressing People" action="untyped:unavailable"/>
+            <item title="The Question Marker" action="untyped:unavailable"/>
+            <item title="Compound Sentences" action="untyped:unavailable"/>
+            <item title="Other Uses of the Te-Form" action="untyped:unavailable"/>
+            <item title="Potential Form" action="untyped:unavailable"/>
+            <item title="Using する and なる with the に Particle" action="untyped:unavailable"/>
+            <item title="Conditionals"/>
+            <item title='Expressing "must" or "have to"' action="untyped:unavailable"/>
+            <item title="Desire and Suggestions" action="untyped:unavailable"/>
+            <item title="Performing an Action on a Subordinate Clause" action="untyped:unavailable"/>
+            <item title="Defining and Describing" action="untyped:unavailable"/>
+            <item title="Trying Something Out/Attempting to Do Something" action="untyped:unavailable"/>
+            <item title="Giving and Receiving" action="untyped:unavailable"/>
+            <item title="Making Requests" action="untyped:unavailable"/>
+            <item title="Numbers and Counting" action="untyped:unavailable"/>
+            <item title="Casual Patterns and Slang" action="untyped:unavailable"/>
+            <item title="Review and More Gobi" action="untyped:unavailable"/>
+        </item>
+        <item title="Special Expressions" action="untyped:unavailable"/>
+        <item title="Advanced Topics" action="untyped:unavailable"/>
+    </item>
+    <item title="Quizzes" action="untyped:quizzes">
+    </item>
+    <item title="Resources" action="untyped:resources"/>
+    <item title="About" action="untyped:about"/>
+</Menu>

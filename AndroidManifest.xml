@@ -2,7 +2,7 @@
 <manifest 
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="roge.taekim"
-    android:versionCode="12"
+    android:versionCode="14"
     android:versionName="@string/version_name"
 >
     <uses-sdk android:minSdkVersion="8" />
@@ -44,6 +44,10 @@
                 />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ContentMenu"
+            android:label="Main Menu" 
+        />
         <activity
             android:name="com.google.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

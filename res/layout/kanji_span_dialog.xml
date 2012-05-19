@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ae="http://schemas.android.com/apk/res/roge.taekim"
+    
+    android:id="@+id/kanji_span_dialog"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical"
+ >
+	<roge.androidextended.ETextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    
+		style="@style/kanji_span_kanji"
+	/>
+	<roge.androidextended.ETextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	  	android:layout_weight="1"
+	  	
+	  	ae:padding="0,0,0,5"
+	    
+	    style="@style/kanji_span_reading"
+	/>
+    <roge.androidextended.ETextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+       	
+       	ae:padding="0,5,0,0"
+       	
+       	style="@style/kanji_span_meaning"
+    />
+</LinearLayout>

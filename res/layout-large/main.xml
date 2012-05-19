@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns="http://schemas.android.com/apk/res/roge.taekim"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+   	<include layout="@layout/main_content" />
+</RelativeLayout>
